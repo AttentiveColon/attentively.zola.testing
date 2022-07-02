@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://attentively.io/attentively.zola/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/</loc>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/about/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/about/</loc>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/blog/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/blog/</loc>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/blog/first/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/blog/first/</loc>
         <lastmod>2022-06-29</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/blog/second/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/blog/second/</loc>
         <lastmod>2022-06-30</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/</loc>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/another-thing/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/another-thing/</loc>
         <lastmod>2022-07-01</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/test-proj-copy/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/test-proj-copy/</loc>
         <lastmod>2022-07-01</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/test-proj/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/test-proj/</loc>
         <lastmod>2022-07-01</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/tetrus/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/tetrus/</loc>
         <lastmod>2022-07-01</lastmod>
     </url>
     <url>
-        <loc>https://attentively.io/attentively.zola/projects/wall-of-text/</loc>
+        <loc>https://attentively.io/attentively.zola.testing/projects/wall-of-text/</loc>
         <lastmod>2022-06-01</lastmod>
     </url>
 </urlset>
