@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" id = "html-theme" class="default">
+
+<head>
+    <meta charset="utf-8">
+    <title>Attentively</title>
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/style.css">
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/colors.css">
+    
+</head>
+<body>
+    <div class = "page_wrapper">
+        <select name="theme-select" id="theme-select" class="theme-select">
+            <option value="theme">Theme</option>
+            <option value="default">Default</option>
+            <option value="basic">Basic</option>
+            <option value="clean">Clean</option>
+        </select>
+        <div class = "content_header_wrapper">
+            
+
+            <header class = "header">
+                <a href="https://attentively.io/attentively.zola">Attentive: </a>
+                <nav class = "navigation">
+                    <a href="https://attentively.io/attentively.zola/projects">Projects</a>
+                    <a href="https://attentively.io/attentively.zola/blog">Blog</a>
+                    <a href="https://attentively.io/attentively.zola/about">About</a>
+                </nav>
+            </header>
+
+            
+
+
+            <div class = "content">
+                
+<div class = "post_header">
+    <h1 class = "title">
+        Projects
+    </h1>
+</div>
+
+
+
+<div class = "preview_content">
+    <h1>Tetrus</h1>
+    <p>2022-07-01</p>
+    <p><div>
+    <style>
+        canvas {
+            margin: 00px;
+            padding: 0px;
+            width: 360px;
+            height: 600px;
+            overflow: visible;
+            position: relative;
+            background: rgb(0, 0, 0);
+            z-index: 0;
+        }
+    </style>
+</div>
+<h3 id="a-minimal-tetris-like-clone-built-in-rust"><p style = "text-align:center">A minimal tetris-like clone built in rust.</p></h3>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/projects/tetrus/">read more...</a></li>
+</div>
+    
+<div class = "preview_content">
+    <h1>Wall of text</h1>
+    <p>2022-06-01</p>
+    <p></p>
+    <li><a href="https://attentively.io/attentively.zola/projects/wall-of-text/">read more...</a></li>
+</div>
+    
+<div class = "preview_content">
+    <h1>A thing I wrote</h1>
+    <p>2022-07-01</p>
+    <p><h1 id="here-is-a-best-project">Here is a best project</h1>
+<hr />
+<p>here is some regular text. talking about regular things</p>
+<p>section divider</p>
+<ul>
+<li>I</li>
+<li>Like</li>
+<li>Things<br />
+<br />
+<br />
+get a load of deez<br />
+deez</li>
+</ul>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/projects/test-proj/">read more...</a></li>
+</div>
+    
+<div class = "preview_content">
+    <h1>Another thing</h1>
+    <p>2022-07-01</p>
+    <p><h1 id="here-is-the-heading">Here is the heading</h1>
+<h2 id="here-isthe-contentfor-you">here is<br />
+the content<br />
+for you\</h2>
+<p>and here is where I go rambling on for hours and hours and there is nothing you can do to stop the constant typing of nonsense that doesn't seem to go anywhere or really talk about anything at all, who knows when it will end, probably when there is enough content to fill the page to work as a test case to check for overflows of content that we don't want. But why do we care about typos and attempt to correct them. Seems really unimportant.</p>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/projects/another-thing/">read more...</a></li>
+</div>
+    
+<div class = "preview_content">
+    <h1>Copy project</h1>
+    <p>2022-07-01</p>
+    <p><h1 id="here-is-a-test-project">Here is a test project</h1>
+<hr />
+<p>here is some regular text. talking about regular things
+<br />
+section divider</p>
+<pre data-lang="rs" style="background-color:#272822;color:#f8f8f2;" class="language-rs "><code class="language-rs" data-lang="rs"><span style="color:#f92672;">pub </span><span style="font-style:italic;color:#66d9ef;">fn </span><span style="color:#a6e22e;">thingy</span><span>(</span><span style="font-style:italic;color:#fd971f;">num</span><span>: </span><span style="font-style:italic;color:#66d9ef;">usize</span><span>) -&gt; </span><span style="font-style:italic;color:#66d9ef;">bool </span><span>{</span><span>
+</span><span>    num </span><span style="color:#f92672;">&gt; </span><span style="color:#ae81ff;">0</span><span>
+</span><span>}</span><span>
+</span></code></pre>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/projects/test-proj-copy/">read more...</a></li>
+</div>
+    
+
+
+
+            </div>
+        </div> 
+        <footer class = "footer">
+
+                <a href="https://github.com/attentivecolon">github/attentivecolon</a>
+                <a href="mailto:attentivecolon@gmail.com">attentivecolon@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+
+<script>
+    const setTheme = theme => document.documentElement.className = theme;
+
+    setTheme(document.cookie);
+
+    document.getElementById('theme-select').addEventListener('change', function(){
+        setTheme(this.value);
+        document.cookie = this.value + ";path=/";
+    });
+</script>
+
+</html>

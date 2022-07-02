@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" id = "html-theme" class="default">
+
+<head>
+    <meta charset="utf-8">
+    <title>Attentively</title>
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/style.css">
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/colors.css">
+    
+</head>
+<body>
+    <div class = "page_wrapper">
+        <select name="theme-select" id="theme-select" class="theme-select">
+            <option value="theme">Theme</option>
+            <option value="default">Default</option>
+            <option value="basic">Basic</option>
+            <option value="clean">Clean</option>
+        </select>
+        <div class = "content_header_wrapper">
+            
+
+            <header class = "header">
+                <a href="https://attentively.io/attentively.zola">Attentive: </a>
+                <nav class = "navigation">
+                    <a href="https://attentively.io/attentively.zola/projects">Projects</a>
+                    <a href="https://attentively.io/attentively.zola/blog">Blog</a>
+                    <a href="https://attentively.io/attentively.zola/about">About</a>
+                </nav>
+            </header>
+
+            
+
+
+            <div class = "content">
+                
+<div class = "post_header">
+    <h1 class = "title">
+        Another thing
+    </h1>
+    <p class = "subtitle"><strong>2022-07-01</strong></p>
+</div>
+
+<div class = "post_content">
+<h1 id="here-is-the-heading">Here is the heading</h1>
+<h2 id="here-isthe-contentfor-you">here is<br />
+the content<br />
+for you\</h2>
+<p>and here is where I go rambling on for hours and hours and there is nothing you can do to stop the constant typing of nonsense that doesn't seem to go anywhere or really talk about anything at all, who knows when it will end, probably when there is enough content to fill the page to work as a test case to check for overflows of content that we don't want. But why do we care about typos and attempt to correct them. Seems really unimportant.</p>
+<span id="continue-reading"></span>
+<p>and here is where the content gets clipped off and you need to click read more to find out what is written here. </p>
+
+</div>
+
+            </div>
+        </div> 
+        <footer class = "footer">
+
+                <a href="https://github.com/attentivecolon">github/attentivecolon</a>
+                <a href="mailto:attentivecolon@gmail.com">attentivecolon@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+
+<script>
+    const setTheme = theme => document.documentElement.className = theme;
+
+    setTheme(document.cookie);
+
+    document.getElementById('theme-select').addEventListener('change', function(){
+        setTheme(this.value);
+        document.cookie = this.value + ";path=/";
+    });
+</script>
+
+</html>

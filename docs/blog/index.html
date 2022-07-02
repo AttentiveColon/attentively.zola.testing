@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" id = "html-theme" class="default">
+
+<head>
+    <meta charset="utf-8">
+    <title>Attentively</title>
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/style.css">
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/colors.css">
+    
+</head>
+<body>
+    <div class = "page_wrapper">
+        <select name="theme-select" id="theme-select" class="theme-select">
+            <option value="theme">Theme</option>
+            <option value="default">Default</option>
+            <option value="basic">Basic</option>
+            <option value="clean">Clean</option>
+        </select>
+        <div class = "content_header_wrapper">
+            
+
+            <header class = "header">
+                <a href="https://attentively.io/attentively.zola">Attentive: </a>
+                <nav class = "navigation">
+                    <a href="https://attentively.io/attentively.zola/projects">Projects</a>
+                    <a href="https://attentively.io/attentively.zola/blog">Blog</a>
+                    <a href="https://attentively.io/attentively.zola/about">About</a>
+                </nav>
+            </header>
+
+            
+
+
+            <div class = "content">
+                
+<div class = "post_header">
+    <h1 class = "title">
+        List of blog posts
+    </h1>
+</div>
+
+
+
+<div class = "preview_content">
+    <h1>My second post</h1>
+    <p>2022-06-30</p>
+    <p><p>This is my second post.</p>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/blog/second/">read more ...</a></li>
+</div>
+    
+<div class = "preview_content">
+    <h1>My first post</h1>
+    <p>2022-06-29</p>
+    <p><p>This is my first post.</p>
+<pre data-lang="rs" style="background-color:#272822;color:#f8f8f2;" class="language-rs "><code class="language-rs" data-lang="rs"><span>    </span><span style="color:#f92672;">pub </span><span style="font-style:italic;color:#66d9ef;">fn </span><span style="color:#a6e22e;">thing</span><span>(</span><span style="font-style:italic;color:#fd971f;">str</span><span>: String) -&gt; </span><span style="font-style:italic;color:#66d9ef;">usize </span><span>{</span><span>
+</span><span>        </span><span style="font-style:italic;color:#66d9ef;">str</span><span>.</span><span style="color:#66d9ef;">len</span><span>()</span><span>
+</span><span>    }</span><span>
+</span></code></pre>
+</p>
+    <li><a href="https://attentively.io/attentively.zola/blog/first/">read more ...</a></li>
+</div>
+    
+
+    
+
+            </div>
+        </div> 
+        <footer class = "footer">
+
+                <a href="https://github.com/attentivecolon">github/attentivecolon</a>
+                <a href="mailto:attentivecolon@gmail.com">attentivecolon@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+
+<script>
+    const setTheme = theme => document.documentElement.className = theme;
+
+    setTheme(document.cookie);
+
+    document.getElementById('theme-select').addEventListener('change', function(){
+        setTheme(this.value);
+        document.cookie = this.value + ";path=/";
+    });
+</script>
+
+</html>

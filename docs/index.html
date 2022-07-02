@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" id = "html-theme" class="default">
+
+<head>
+    <meta charset="utf-8">
+    <title>Attentively</title>
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/style.css">
+    <link rel="stylesheet" href="https://attentively.io/attentively.zola/colors.css">
+    
+</head>
+<body>
+    <div class = "page_wrapper">
+        <select name="theme-select" id="theme-select" class="theme-select">
+            <option value="theme">Theme</option>
+            <option value="default">Default</option>
+            <option value="basic">Basic</option>
+            <option value="clean">Clean</option>
+        </select>
+        <div class = "content_header_wrapper">
+            
+
+            <header class = "header">
+                <a href="https://attentively.io/attentively.zola">Attentive: </a>
+                <nav class = "navigation">
+                    <a href="https://attentively.io/attentively.zola/projects">Projects</a>
+                    <a href="https://attentively.io/attentively.zola/blog">Blog</a>
+                    <a href="https://attentively.io/attentively.zola/about">About</a>
+                </nav>
+            </header>
+
+            
+
+
+            <div class = "content">
+                
+
+<h1 class = "title">
+    Home Page.
+</h1>
+<p>Click <a href="https://attentively.io/attentively.zola/blog/">here</a> to see my posts.</p>
+
+
+            </div>
+        </div> 
+        <footer class = "footer">
+
+                <a href="https://github.com/attentivecolon">github/attentivecolon</a>
+                <a href="mailto:attentivecolon@gmail.com">attentivecolon@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+
+<script>
+    const setTheme = theme => document.documentElement.className = theme;
+
+    setTheme(document.cookie);
+
+    document.getElementById('theme-select').addEventListener('change', function(){
+        setTheme(this.value);
+        document.cookie = this.value + ";path=/";
+    });
+</script>
+
+</html>
